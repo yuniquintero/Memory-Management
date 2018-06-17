@@ -15,13 +15,13 @@
 #	un valor para inicializar la estructura que admiistra el TAD Manejador.
 	.data
 sizeInit:
-	.space 4
+	.word 0
 sizeAvail:
-	.space 4
+	.word 0
 dirManej:
-	.space 4
+	.word 0
 cabezaManej:
-	.space 4
+	.word 0
 errMessage1:
 	.asciiz "init: argumento invalido"
 errMessage2:
