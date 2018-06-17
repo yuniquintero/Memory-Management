@@ -134,7 +134,7 @@ delete:
 	lw  	$t0, sizeInit
 	bnez 	$t0, delete_ok
 delete_err:
-	li 	$v0, -8
+	li 	$v0, -7
 	b 	delete_end
 
 delete_ok:	
@@ -206,7 +206,7 @@ delete_error:
 delete_end: 		# epilog
 	addi	$sp, $sp, 8
 	lw	$fp, ($sp)
-	lw	$ra, 4($sp)
+	lw	$ra, -4($sp)
 	jr	$ra
 
 # print(IN lista_ptr: entero; IN fun_print: entero; OUT void)
