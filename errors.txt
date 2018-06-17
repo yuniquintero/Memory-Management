@@ -1,0 +1,8 @@
+-1: init: argumento invalido
+-2: init: error con syscall
+-3: malloc: argumento invalido. Fuera de rango
+-4: reallococ/malloc: no hay memoria disponible
+-5: reallococ/free: argumento invalido. no previamente retornado por malloc/reallococ
+-6: reallococ/malloc: no hay memoria continua disponible
+-7: insert/create: no se inicializo la estructura
+-8: delete: argumento invalido
